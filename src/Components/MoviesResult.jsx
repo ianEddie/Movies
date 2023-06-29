@@ -1,5 +1,6 @@
 import { Section } from './Section'
-import icon from '../assets/movieIcon.png'
+import { typeIcon } from '../assets/Images'
+//
 export function MoviesResult ({ data }) {
   return (
     <>
@@ -17,7 +18,7 @@ export function MoviesResult ({ data }) {
               <span className='font-bold font-primary tracking-wider text-lg'>{item.title}</span>
               <div className='text-gray-700 font-secondary font-bold w-full flex justify-around'>
                 <div className='flex gap-x-1 items-center'>
-                  <img src={icon} alt='icon' className='h-4' />
+                  <img src={typeIcon} alt='icon' className='h-4' />
                   <span>{item.type}</span>
                 </div>
                 <span>{item.year}</span>

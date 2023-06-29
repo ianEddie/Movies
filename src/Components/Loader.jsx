@@ -1,6 +1,7 @@
-import loader from '../assets/loaderIcon.png'
+import { loaderIcon } from '../assets/Images'
+//
 export function Loader () {
   return (
-    <img src={loader} alt='loader' className='animate-spin h-10' />
+    <img src={loaderIcon} alt='loader' className='animate-spin h-10' />
   )
 }

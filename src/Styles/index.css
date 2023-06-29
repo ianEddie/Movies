@@ -8,7 +8,6 @@
   @apply  scrollbar scrollbar-track-black scrollbar-thumb-white/50 scrollbar-w-[7px] 
 }
 
-
   .responsive {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -22,20 +21,12 @@
 
   }
 
-  .background {
-    background-image: url('../assets/layout-bg.webp');
-    background-position: center center;
-    background-size: cover;
-  }
-
-  .gradient-bg {
-    background-image: url('https://wallpaperaccess.com/full/3658600.jpg');
+  .background-img {
+    background-image: url('https://i.postimg.cc/9fzg8LR5/background.jpg');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
   }
-
-
 
   .animation-1 {
     @apply animate-fade animate-once animate-duration-1000 animate-ease-linear animate-normal animate-fill-forwards

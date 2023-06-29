@@ -1,0 +1,5 @@
+export const loaderIcon = 'https://i.postimg.cc/L5JXQKkK/loader-Icon.png'
+export const logo = 'https://i.postimg.cc/8cxCqKwF/logo.png'
+export const rateIcon = 'https://i.postimg.cc/T3Mw0spF/rateIcon.png'
+export const typeIcon = 'https://i.postimg.cc/DZj0cyXP/movie-Icon.png'
+export const background = 'https://i.postimg.cc/9fzg8LR5/background.jpg'

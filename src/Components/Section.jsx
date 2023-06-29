@@ -1,4 +1,5 @@
-import rateIcon from '../assets/rateIcon.png'
+import { rateIcon } from '../Assets/Images'
+//
 export function Section ({ data }) {
   return (
     <>
