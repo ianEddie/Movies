@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+*{
+  @apply  scrollbar scrollbar-track-black scrollbar-thumb-white/50 scrollbar-w-[7px] 
+}
+
+
+  .responsive {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  }
+
+  .flexed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+
+  .background {
+    background-image: url('../assets/layout-bg.webp');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .gradient-bg {
+    background-image: url('https://wallpaperaccess.com/full/3658600.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+
+
+  .animation-1 {
+    @apply animate-fade animate-once animate-duration-1000 animate-ease-linear animate-normal animate-fill-forwards
+  }
+}
