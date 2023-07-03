@@ -13,7 +13,7 @@ export function Header ({ getMovie }) {
     updateInput(newInput)
   }
   return (
-    <header className='py-3 justify-around absolute top-1 z-30 font-secondary '>
+    <header className='py-3 justify-around absolute top-1 z-30 font-secondary  w-full'>
       <form className='w-full flex justify-center items-center gap-5' onSubmit={handleSubmit}>
         <input
           value={input}

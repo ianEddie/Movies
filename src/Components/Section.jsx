@@ -5,12 +5,12 @@ export function Section ({ data }) {
     <>
       {
           data.slice(0, 1).map(item => (
-            <section className='bg-neutral-900/90 shadow-xl shadow-black w-[70%] flex justify-between rounded-[2.5rem] animation-1' key={item.id}>
-              <section className='flex-grow flex flex-col pt-5 pl-10 text-white backdrop-blur-sm rounded-[2.5rem]'>
-                <div>
+            <section className='bg-black/50 shadow-xl shadow-black w-2/3 sm:flex rounded-[2.5rem] animation-1 hidden' key={item.id}>
+              <section className='flex-grow flex flex-col items-center justify-around text-center text-white backdrop-blur-sm rounded-[2.5rem]'>
+                <div className='w-full'>
                   <h1 className='font-primary text-[5em] tracking-wide'>{item.title}</h1>
                 </div>
-                <div className='flex w-1/2 justify-around font-secondary'>
+                <div className='flex w-full justify-around font-secondary'>
                   <div className='flex flex-col text-center gap-y-1'>
                     <span>Category</span>
                     <span className='text-neutral-400'>{item.type}</span>
@@ -20,11 +20,11 @@ export function Section ({ data }) {
                     <span className='text-neutral-400'>{item.year}</span>
                   </div>
                 </div>
-                <div className='w-1/2 flex justify-center'>
+                <div className='w-full flex justify-center '>
                   <img src={rateIcon} alt='icon' className='h-16' />
                 </div>
-                <div className='flex justify-center flex-grow items-center'>
-                  <button className='bg-red-700 h-10 w-16 rounded-full transition-colors duration-300 hover:bg-white hover:text-black font-semibold text-sm tracking-wider'>Watch</button>
+                <div className='flex justify-center w-full items-center'>
+                  <button className='bg-red-600 h-10 w-16 rounded-full transition-colors duration-300 hover:bg-white hover:text-black font-semibold text-sm tracking-wider'>Watch</button>
                 </div>
               </section>
               <section>
